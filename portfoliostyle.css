@@ -1,0 +1,119 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(206, 206, 206);
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #323f4a;
+    padding: 1rem;
+    margin:0;
+}
+
+h2{
+    text-align: center;
+}
+
+div{ 
+    margin: 2rem 8rem 0 8rem;
+    padding: 1rem 2rem 1rem 2rem;
+    justify-content: center;
+    border: 2px solid rgb(39, 39, 46);
+    border-radius: 10px; 
+    background-color: rgb(124, 133, 141);
+}
+
+nav a{
+    color:  rgba(255, 255, 255, 0.525);
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0.5rem 1rem 0 1rem;
+	border: 0px solid red;
+	background-color: #203748;
+	border-radius: 10px
+}
+
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.525);
+    color: #203748;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+
+div ul{
+    border: 0px solid red;
+    text-align: center;
+    gap: 20px;
+}
+
+div li{
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    width: 20%;
+    border: 2px solid rgb(39, 39, 46);
+    background-color: rgb(130, 151, 151);
+    border-radius: 10px;
+}
+
+.introduce{
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+fieldset{
+    margin-left: 4rem;
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgb(124, 133, 141);
+    border: 2px solid black;
+}
+legend{
+    font-weight: bold;
+}
+
+label{
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    border: 0px solid red;
+}
+
+button{
+    display: block;
+    margin-left: auto; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(39, 39, 46);
+    border: none;
+}
+
+button:hover{
+    color:rgb(255, 255, 255);
+    background-color:rgb(39, 39, 46) ;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
